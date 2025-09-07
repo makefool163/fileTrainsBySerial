@@ -1,0 +1,5 @@
+go install fyne.io/tools/cmd/fyne@latest
+
+fyne package -os windows -icon app_icon.ico
+fyne release -os linux -icon assets/app_icon.png
+fyne build -os linux -icon assets/app_icon.png
