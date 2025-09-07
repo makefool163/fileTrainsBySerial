@@ -1,6 +1,6 @@
-## Serial port file transmitter
+# Serial port file transmitter
 
-# Features
+## Features
  
 1. Strong verification and self-recovery of serial port data
 
@@ -10,7 +10,7 @@
 
 4. Support multiple operating systems (go fyne)
 
-# Introduction to Source Code
+## Introduction to Source Code
 
 1. Main guidance
 gmain.go
@@ -28,6 +28,6 @@ rpc_net.go
 gui_main.go
 gui_theme.go
 
-# Precautions
+## Precautions
 
 Serial communication consists of 8 data bits, 1 stop bit, no check, and no flow control
